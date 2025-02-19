@@ -18,13 +18,13 @@
 <p align="justify">Po uruchomieniu aplikacji widoczne jest okienko logowania z możliwością przejścia do rejestracji użytkownika. Oba formularze są odpowiednio walidowane zarówno po stronie klienta, jak i na serwerze (tak samo wszystkie formularze w aplikacji). Nie można utworzyć użytkownika na ten sam email, który występuje już w bazie danych. Wprowadzone hasła są odpowiednio haszowane.</p>
 
 <p align="center">
-  <img src="" style="width: 80%; height: 80%" /></p>
+  <img src="https://github.com/MarekP21/ProjektNirvana/blob/main/graphics/WalidacjaFormularzaRejestracji.png" style="width: 80%; height: 80%" /></p>
 <p align="center">
   <i>Rys. 1. Walidacja formularza rejestracji</i>
 </p><br>
 
 <p align="center">
-  <img src="" style="width: 80%; height: 80%" /></p>
+  <img src="https://github.com/MarekP21/ProjektNirvana/blob/main/graphics/WalidacjaFormularzaLogowania.png" style="width: 80%; height: 80%" /></p>
 <p align="center">
   <i>Rys. 2. Walidacja formularza logowania</i>
 </p>
@@ -36,19 +36,19 @@
 <p align="justify">Po prawidłowym zalogowaniu do aplikacji użytkownik widzi stronę główną, do której można także przejść poprzez naciśnięcie nazwy aplikacji. Z prawej strony paska górnego znajduje się menu typu <i>hamburger</i>. Po rozwinięciu menu użytkownik może zobaczyć szczegóły dotyczące swojego konta, listę wszystkich użytkowników aplikacji, a także wylogować się bądź usunąć konto. W tabeli użytkowników zastosowano paginację, aby jednocześnie na stronie wyświetlało się maksymalnie 6 elementów listy.</p>
 
 <p align="center">
-  <img src="" style="width: 80%; height: 80%" /></p>
+  <img src="https://github.com/MarekP21/ProjektNirvana/blob/main/graphics/WidokStronyG%C5%82%C3%B3wnej.png" style="width: 80%; height: 80%" /></p>
 <p align="center">
   <i>Rys. 3. Widok strony głównej wraz z rozwiniętym menu</i>
 </p><br>
 
 <p align="center">
-  <img src="" style="width: 80%; height: 80%" /></p>
+  <img src="https://github.com/MarekP21/ProjektNirvana/blob/main/graphics/WidokListyU%C5%BCytkownik%C3%B3w.png" style="width: 80%; height: 80%" /></p>
 <p align="center">
   <i>Rys. 4. Widok listy zarejestrowanych użytkowników</i>
 </p><br>
 
 <p align="center">
-  <img src="" style="width: 80%; height: 80%" /></p>
+  <img src="https://github.com/MarekP21/ProjektNirvana/blob/main/graphics/UsuniecieKonta.png" style="width: 80%; height: 80%" /></p>
 <p align="center">
   <i>Rys. 5. Okienko widoczne po wybraniu przycisku usunięcia konta</i>
 </p>
@@ -62,13 +62,13 @@
 <p align="justify">Wciśnięcie odpowiedniego przycisku przenosi użytkownika do formularza dodawania opinii. Można tam wybrać ulubiony album z listy rozwijanej, wpisać ulubiony utwór, a także uzupełnić widoczne pole tekstowe własnym komentarzem. Podobna sytuacja jest w przypadku edycji swojej własnej opinii. Formularz jest odpowiednio walidowany zarówno po stronie klienta, jak i po stronie serwera.</p>
 
 <p align="center">
-  <img src="" style="width: 80%; height: 80%" /></p>
+  <img src="https://github.com/MarekP21/ProjektNirvana/blob/main/graphics/WidokListyOpinii.png" style="width: 80%; height: 80%" /></p>
 <p align="center">
   <i>Rys. 6. Widok listy wystawionych opinii przez użytkowników</i>
 </p><br>
 
 <p align="center">
-  <img src="" style="width: 80%; height: 80%" /></p>
+  <img src="https://github.com/MarekP21/ProjektNirvana/blob/main/graphics/FormularzDodawaniaOpinii.png" style="width: 80%; height: 80%" /></p>
 <p align="center">
   <i>Rys. 7. Widok formularza dodawania opinii</i>
 </p>
@@ -80,19 +80,19 @@
 <p align="justify">Następnym elementem aplikacji jest zakładka <i>Products</i>, która służy do łatwego podejrzenia, wprowadzania, edytowania i usuwania produktów ze sklepu internetowego. Dodając lub edytując produkt, należy podać jego nazwę, opis, dostępną ilość (wartość całkowita równa minimum 1), cenę za sztukę (wartość o dwóch miejscach po przecinku równa minimum 0,01) oraz jedną z kategorii produktu, które są pobierane z bazy danych. Trzeba także dodać plik graficzny do każdego produktu. Formularze są odpowiednio walidowane np. nie da się wrzucić w miejsce zdjęcia innego pliku niż z rozszerzeniem <i>.jpg</i>, <i>.jpeg</i> lub <i>.png</i>. W celu zaprezentowania projektu zakładka <i>Products</i> jest dostępna obecnie dla wszystkich użytkowników, jednakże ostatecznie jedynie administrator będzie mógł dodawać i edytować produkty w bazie danych.</p>
 
 <p align="center">
-  <img src="" style="width: 80%; height: 80%" /></p>
+  <img src="https://github.com/MarekP21/ProjektNirvana/blob/main/graphics/ListaDostepnychProduktow.png" style="width: 80%; height: 80%" /></p>
 <p align="center">
   <i>Rys. 8. Widok listy dostępnych produktów na stronie</i>
 </p><br>
 
 <p align="center">
-  <img src="" style="width: 80%; height: 80%" /></p>
+  <img src="https://github.com/MarekP21/ProjektNirvana/blob/main/graphics/WalidacjaDodawaniaProduktu.png" style="width: 80%; height: 80%" /></p>
 <p align="center">
   <i>Rys. 9. Walidacja pól formularza dodawania nowego produktu</i>
 </p><br>
 
 <p align="center">
-  <img src="" style="width: 80%; height: 80%" /></p>
+  <img src="https://github.com/MarekP21/ProjektNirvana/blob/main/graphics/FormularzEdycjiProduktu.png" style="width: 80%; height: 80%" /></p>
 <p align="center">
   <i>Rys. 10. Widok formularza edycji produktu</i>
 </p>
@@ -106,13 +106,13 @@
 <p align="justify">Strona umożliwia sprawdzenie ilości aktualnie wyświetlanych przedmiotów. Produkty są pobierane z bazy danych i jest możliwość ich modyfikacji właśnie przez wcześniej omówioną zakładkę <i>Products</i>. Po przejściu do koszyka można zobaczyć wszystkie wybrane produkty, ilość każdego z nich, cenę za sztukę i cenę za wybraną ilość sztuk. Można również usunąć przedmiot z koszyka. Pod listą produktów jest wyświetlana całkowita cena wszystkich przedmiotów. Przycisk odpowiedzialny za powrót do sklepu znajduje się w lewym górnym rogu podstrony.</p>
 
 <p align="center">
-  <img src="" style="width: 80%; height: 80%" /></p>
+  <img src="https://github.com/MarekP21/ProjektNirvana/blob/main/graphics/WidokSklepu.png" style="width: 80%; height: 80%" /></p>
 <p align="center">
   <i>Rys. 11. Widok sklepu (filtrowanie po kategorii i cenach)</i>
 </p><br>
 
 <p align="center">
-  <img src="" style="width: 80%; height: 80%" /></p>
+  <img src="https://github.com/MarekP21/ProjektNirvana/blob/main/graphics/WidokKoszyka.png" style="width: 80%; height: 80%" /></p>
 <p align="center">
   <i>Rys. 12. Widok koszyka z dodanymi wcześniej produktami</i>
 </p>
