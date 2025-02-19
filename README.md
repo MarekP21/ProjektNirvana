@@ -1,4 +1,4 @@
-## Projekt Studencki – Szkielety Programistyczne
+## Projekt – Szkielety Programistyczne
 <p align="justify">Przedstawiony projekt to aplikacja internetowa będąca fanpage’m poświęconym zespołowi Nirvana. Projekt został stworzony w programie <i>Visual Studio Code</i>. Utworzony został serwer w express oraz klient w technologii react. Cała aplikacja działa z wykorzystaniem MERN, gdyż współpracuje z nierelacyjną bazą danych MongoDB i realizuje operacje CRUD.</p>
 
 ---
