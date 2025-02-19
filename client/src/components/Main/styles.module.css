@@ -1,0 +1,257 @@
+.navbar {
+	width: 100%;
+    height: 70px;
+    background-color: #656565;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative; 
+}
+
+.second_menu{
+    height: 70px;
+    background-color: #656565;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative; 
+    margin-right: 20px;
+}
+
+.menu_h1 {
+	color: white;
+	font-size: 25px;
+	margin-left: 20px;
+	font-weight: bold;
+	background-color: transparent; /* Przezroczyste tło */
+	cursor: pointer;
+	padding: 12px 12px;
+	border: none;
+}
+
+.menu_h2 {
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	background-color: transparent; /* Przezroczyste tło */
+	cursor: pointer;
+    padding: 10px;
+	border: none;
+}
+
+.background {
+    position: absolute;
+    top: -3.5%;
+    left: 0;
+    width: 100%;
+    height: 103.5%;
+    background-size: cover;
+    opacity: 0.25;
+	z-index: -1;
+    background-image: url("../../images/nirvana_1.jpg");
+}
+
+.hamburger {
+    cursor: pointer;
+    font-size: 30px;
+    color: white;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+.menu {
+    position: absolute;
+    top: 70px;
+    right: 0;
+    background-color: #656565;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    z-index: 100; /* Dodaj większy z-index */
+}
+
+.menu_btn {
+    border: 1px solid white; /* Dodaj delikatne obramowanie */
+    border-radius: 5px; /* Zaokrąglenie rogów */
+    background-color: transparent; /* Przezroczyste tło */
+    color: white; /* Biały kolor tekstu */
+    padding: 12px 12px; /* Dostosuj padding */
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Dodaj płynne przejścia */
+    width: 90%; /* Ustaw równą szerokość */
+    text-align: center; /* Wyśrodkuj tekst */
+}
+
+.menu_btn:hover {
+    background-color: white; /* Zmień tło na białe po najechaniu */
+    color: #656565; /* Zmień kolor tekstu na kolor tła */
+    border-color: transparent; /* Ukryj obramowanie po najechaniu */
+}
+
+.white_btn {
+	border: none;
+	outline: none;
+	padding: 12px 0;
+	background-color: white;
+	border-radius: 20px;
+	width: 120px;
+	font-weight: bold;
+	font-size: 14px;
+	cursor: pointer;
+	margin-right: 20px;
+}
+
+.users_container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.users_title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.user_table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%; /* Zwiększenie szerokości tabeli */
+    margin: auto; /* Wyśrodkowanie tabeli */
+    border: 1px solid #000000; /* Dodanie konturów dla całej tabeli */
+	background-color: #afafafa3;
+}
+
+.table_header, .table_row {
+    display: flex;
+    width: 100%; /* Pełna szerokość dla wierszy i nagłówka */
+    padding: 8px 0;
+}
+
+.table_row:nth-child(even) {
+    background-color: #f0f0f0;
+}
+
+.table_cell {
+    flex-basis: 20%;
+    text-align: left; /* Wyrównanie zawartości do lewej */
+    padding: 0 8px; /* Dodanie odstępu wewnątrz komórek */
+    border-right: 1px solid #000000; /* Dodanie konturów dla komórek */
+}
+
+.table_header .table_cell {
+    flex-basis: 25%; /* Ustawienie takiej samej szerokości dla nagłówków i kolumn */
+    text-align: center; /* Wyrównanie zawartości nagłówków do lewej */
+    font-weight: bold;
+    border-right: 1px solid #000000; /* Dodanie konturów dla komórek nagłówków */
+}
+
+.table_row .table_cell {
+    flex-basis: 25%; /* Ustawienie takiej samej szerokości dla nagłówków i kolumn */
+    text-align: left; /* Wyrównanie zawartości wierszy do lewej */
+    border-right: 1px solid #000000; /* Dodanie konturów dla komórek wierszy */
+}
+
+.table_header .table_cell:first-child {
+    flex-basis: 10%; 
+    text-align: left; 
+}
+
+.table_header .table_cell:nth-child(2) {
+    flex-basis: 40%; 
+    text-align: center; 
+}
+
+.table_row .table_cell:first-child {
+    flex-basis: 10%; 
+    text-align: right;
+}
+
+.table_row .table_cell:nth-child(2) {
+    flex-basis: 40%;
+    text-align: left; 
+}
+
+.table_header .table_cell:nth-child(4) {
+    flex-basis: 25%; 
+    text-align: center;
+	border-right: none;
+}
+
+.table_row .table_cell:nth-child(4) {
+    flex-basis: 25%;
+    text-align: left; 
+	border-right: none;
+}
+
+.user {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+	
+}
+
+.pagination button {
+    background-color: #515151;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 0 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pagination button:hover {
+    background-color: #434343;
+}
+
+.pagination button:disabled {
+    background-color: #a7a7a7;
+    cursor: not-allowed;
+}
+
+.pagination button:not(:disabled):hover {
+    color: #f0f0f0;
+}
+
+.user_details_container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.user_details_title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.user_details_info {
+    list-style: none;
+    padding: 0;
+	border: 2px solid #656565; /* Dodaj ramkę */
+    border-radius: 10px; /* Zaokrąglij rogi ramki */
+    padding: 20px; /* Dodaj wewnętrzny odstęp */
+	margin-left: 20%;
+	margin-right: 20%;
+    background-color: rgba(255, 255, 255, 0.6); /* Białe tło z przezroczystością 50% */
+}
+
+.user_details_info li {
+    margin-bottom: 10px;
+}
+
+.user_details_info li span {
+    font-weight: bold;
+    margin-right: 5px;
+}

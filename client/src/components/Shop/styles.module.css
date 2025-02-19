@@ -1,0 +1,157 @@
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.sidebar-filter {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.sidebar-filter h3,
+.sidebar-filter h6 {
+    color: #333;
+    font-weight: 700;
+}
+
+.price-filter-control input {
+    margin-bottom: 10px;
+}
+
+.divider {
+    height: 1px;
+    background-color: #ddd;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.card-price {
+    color: #28a745;
+}
+
+.add-cart-button {
+    margin-top: 10px;
+}
+
+.imgFluid {
+    max-width: 100%;
+    height: auto;
+    max-height: 250px;
+}
+
+.padCat {
+    padding: 5px;
+}
+
+.priceVal {
+    display: flex;
+    justify-content: center;
+    margin-right: 30%;
+}
+
+.labelPriceVal {
+    margin-right: 7px;
+    padding: 5px;
+    align-items: center;
+}
+
+.imagine {
+    max-width: 250px;
+    max-height: 250px;
+}
+
+.komorka {
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    margin-top: 10%;
+    width: 150px;
+}
+
+.komorka2 {
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    margin-top: 11%;
+}
+
+.komorka3 {
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    margin-top: 3%;
+    width: 250px;
+}
+
+.komorka4 {
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+/* Order Total Styles */
+.orderTotal {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+    padding: 20px;
+    border: 1px solid #e8e8e8;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+    background-color: #fff;
+    font-size: 18px;
+}
+
+.orderTotalTitle {
+    font-size: 18px;
+    color: rgba(0,0,0,0.7);
+    margin-right: 10px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.orderTotalAmount {
+    font-size: 24px;
+    font-weight: 600;
+    color: #0e8ce4;
+}
+
+@media (max-width: 767px) {
+    .cart_item_quantity {
+        text-align: right;
+    }
+    .cart_item_name {
+        text-align: right;
+        width: auto;
+    }
+    .cart_item_delete {
+        text-align: right;
+    }
+    .komorka3 {
+        width: 100%;
+    }
+    .komorka {
+        width: 100%;
+    }
+
+}
